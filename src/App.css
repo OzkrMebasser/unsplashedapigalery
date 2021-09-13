@@ -18,7 +18,7 @@
   border-radius: 8px;
   opacity: 70%;
   box-sizing: border-box;
-  filter: blur(1.1px);
+  filter: blur(1.8px);
   border-radius: 5px;
   border: 2px solid rgb(253, 0, 0);
 
@@ -53,9 +53,9 @@ input[type=text] {
   box-sizing: border-box;
   margin-left: 25%;
   border: 2px solid rgb(255, 255, 255);
-  background-color: rgb(255, 255, 255);
+  opacity: 85%;
   border-radius: 8px;
-  color:rgb(66, 70, 66);
+  color:rgb(0, 0, 0);
   border-style: inset;
   border: 2px solid rgb(119, 119, 119);
 
