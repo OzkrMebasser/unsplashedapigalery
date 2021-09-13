@@ -1,4 +1,4 @@
-import { useState, useEffect} from 'react';
+import { useState} from 'react';
 import { LoadImages, SearchImages } from './components/Api';
 import './App.css';
 import Image from './components/Image'
