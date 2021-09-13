@@ -14,13 +14,13 @@
   width: 100%;
   margin: 0;
   padding: 8px ;
-  box-shadow: 0 4px 5px 0 rgba(255, 255, 255, 0.884), 0 6px 20px 0 rgba(168, 167, 167, 0.733);
+  box-shadow: 0 4px 5px 0 rgba(49, 48, 48, 0.884), 0 6px 20px 0 rgba(168, 167, 167, 0.733);
   border-radius: 8px;
   opacity: 70%;
   box-sizing: border-box;
   filter: blur(1.8px);
   border-radius: 5px;
-  border: 2px solid rgb(253, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
 
 
 
@@ -52,14 +52,14 @@ input[type=text] {
   margin: auto;
   box-sizing: border-box;
   margin-left: 25%;
-  border: 2px solid rgb(255, 255, 255);
+  /* border: 2px solid rgb(255, 255, 255); */
   opacity: 85%;
   border-radius: 8px;
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   border-style: inset;
   border: 2px solid rgb(0, 0, 0);
-  /* background-color: rgba(0, 255, 13, 0.671); */
-  background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif);
+  background-color: rgba(217, 255, 0, 0.349);
+  /* background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif); */
 
 
   
