@@ -55,9 +55,11 @@ input[type=text] {
   border: 2px solid rgb(255, 255, 255);
   opacity: 85%;
   border-radius: 8px;
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
   border-style: inset;
-  border: 2px solid rgb(119, 119, 119);
+  border: 2px solid rgb(0, 0, 0);
+  /* background-color: rgba(0, 255, 13, 0.671); */
+  background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif);
 
 
   
@@ -93,7 +95,7 @@ button {
 }
 
 .button {
-  border: 1px solid rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
   color: transparent;
   cursor: pointer;
   display: inline-block;
@@ -139,8 +141,8 @@ button {
       font-size: 1rem;
       width: 6rem;
       font-weight: 600;
-    padding: 15px 20px;
-  box-sizing: border-box;
+      padding: 12px 20px;
+      box-sizing: border-box;
   /* background-color: #0b10ff; */
   border-radius: 8px;
     }

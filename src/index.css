@@ -8,7 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color:white;
+  color:rgb(255, 0, 0);
   font-size: 1.5rem;
   /* background-repeat: repeat; */
 }
