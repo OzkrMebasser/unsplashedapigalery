@@ -44,7 +44,7 @@
   width: 60%;
 } */
 
-input[type=text] {
+input {
   width: 40%;
   font-size: 1rem;
   padding: 11px 20px;
@@ -55,16 +55,12 @@ input[type=text] {
   border-radius: 8px;
   color:rgb(0, 0, 0);
   border: 2px solid rgb(255, 0, 0);
-  /* background-color: rgba(255, 255, 255, 0.349); */
-  /* background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif); */
 
-
-  
 }
 
 @media (max-width: 768px)  {
 
-  input [type=text]{
+  input {
   font-size: .4rem;
   width:150px;
 
@@ -81,13 +77,11 @@ button {
   padding: 12px 20px;
   box-sizing: border-box;
   border-radius: 8px;
-  /* background-image: url(https://media.giphy.com/media/3o7bu9UtZAm1gtGJzi/giphy.gif); */
   background-size: cover;
   color: transparent;
- background-clip: text;
- -webkit-background-clip: text;
- border-style: inset;
- /* text-transform: uppercase; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  border-style: inset;
 
 }
 
@@ -97,8 +91,6 @@ button {
   cursor: pointer;
   display: inline-block;
   font-family: Arial;
-  /* font-size: 20px;
-  padding: 5px 10px; */
   text-align: center;
   text-decoration: none;
   -webkit-animation: glowing 1500ms infinite;
@@ -140,7 +132,6 @@ button {
       font-weight: 600;
       padding: 12px 20px;
       box-sizing: border-box;
-  /* background-color: #0b10ff; */
-  border-radius: 8px;
+      border-radius: 8px;
     }
   }
