@@ -21,7 +21,7 @@ function App() {
       <div>
         
         <h3 className="center">Type the word to search for an image</h3>
-        <input className="center"  type="text" onChange={(event)=> setRequest(event.target.value)} placeholder="Type your search. e.g. Car or Boy" />
+        <input className="center" name="search" type="text" onChange={(event)=> setRequest(event.target.value)} placeholder="Type your search. e.g. Car or Boy" />
         <button onClick={search} className="button">Search</button>
         <h5 className="center">Hover on image 🖱️</h5>
 
