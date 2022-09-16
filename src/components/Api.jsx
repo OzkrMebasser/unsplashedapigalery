@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import axios from "axios";
 
-const count = 10;
+
 
 function LoadImages(){
     const [state, setState] = useState([])
@@ -13,7 +13,7 @@ function LoadImages(){
         setState(data.data)
     })
 
-}, [count])
+}, [])
     return state;
 
 }
@@ -26,6 +26,7 @@ function SearchImages(request){
     .get("https://api.unsplash.com/search/photos?query="+request+"&client_id=lPJqf4Zy276zDac54gNAJb1F2oI5tVaRXzWAqloWcPI")
     .then((data) => {
         // setState(data.data)
+        console.log(data.data);
         setState(data.data.results);
     })
 
